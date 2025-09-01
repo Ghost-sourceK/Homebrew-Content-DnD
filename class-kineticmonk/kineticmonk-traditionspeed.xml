@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Kinetic Monk Traditions</name>
+		<update version="1.0.0">
+			<file name="class-kineticmonk-traditionspeed.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Tradition of Speed" type="Archetype" source="Kinetic Monk" id="ID_KINETIC_MONK_COMBAT">
+		<supports>Covenant</supports>
+		<description>
+			<p>This tradition focuses on channeling kinetic energy offensively, granting the Monk's versatile abilities to unleash devastating attacks in combat.</p>
+			<div element="ID_KINETIC_MONK_SPEED_FLOWING_MOMENTUM"/>
+			<div element="ID_KINETIC_MONK_SPEED_FLEETFOOTED_STEP"/>
+			<div element="ID_KINETIC_MONK_SPEED_KINETIC_CHARGE"/>
+		</description>
+		<rules>
+			<grant type="Archetype Feature" id="ID_KINETIC_MONK_SPEED_FLOWING_MOMENTUM" level="3"/>
+			<grant type="Archetype Feature" id="ID_KINETIC_MONK_SPEED_FLEETFOOTED_STEP" level="6"/>
+			<grant type="Archetype Feature" id="ID_KINETIC_MONK_SPEED_KINETIC_CHARGE" level="13"/>
+		</rules>
+	</element>
+
+	<element name="Flowing Momentum" type="Archetype Feature" source="Kinetic Monk" id="ID_KINETIC_MONK_SPEED_FLOWING_MOMENTUM">
+        <description>
+            <p>At 3rd level, spend 1 Kinetic Charge to move up to 10 ft and make one unarmed strike. Can be used multiple times per turn. This attack does not generate Kinetic Charges.</p>
+        </description>
+    </element>
+
+    <element name="Fleetfooted Step" type="Archetype Feature" source="Kinetic Monk" id="ID_KINETIC_MONK_SPEED_FLEETFOOTED_STEP">
+        <description>
+            <p>At 6th level, use a bonus action to Disengage. Spend 1 Kinetic Charge to also gain Dodge until the start of your next turn. Movement speed increases by 15 ft.</p>
+        </description>
+    </element>
+
+    <element name="Kinetic Charge (Speed)" type="Archetype Feature" source="Kinetic Monk" id="ID_KINETIC_MONK_SPEED_KINETIC_CHARGE">
+        <description>
+            <p>At 13th level, for every 20 ft moved, your next attack deals an additional 1d10 force damage.</p>
+        </description>
+    </element>
+</elements>

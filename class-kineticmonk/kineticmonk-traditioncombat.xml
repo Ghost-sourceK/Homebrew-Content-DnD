@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Kinetic Monk Traditions</name>
+		<update version="1.0.0">
+			<file name="class-kineticmonk-traditioncombat.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Tradition of Combat" type="Archetype" source="Kinetic Monk" id="ID_KINETIC_MONK_COMBAT">
+		<supports>Covenant</supports>
+		<description>
+			<p>This tradition focuses on channeling kinetic energy offensively, granting the Monk's versatile abilities to unleash devastating attacks in combat.</p>
+			<div element="ID_KINETIC_MONK_COMBAT_KINETIC_BLAST"/>
+			<div element="ID_KINETIC_MONK_COMBAT_KINETIC_FLURRY"/>
+			<div element="ID_KINETIC_MONK_COMBAT_FORCEFUL_DISCHARGE"/>
+		</description>
+		<rules>
+			<grant type="Archetype Feature" id="ID_KINETIC_MONK_COMBAT_KINETIC_BLAST" level="3"/>
+			<grant type="Archetype Feature" id="ID_KINETIC_MONK_COMBAT_KINETIC_FLURRY" level="6"/>
+			<grant type="Archetype Feature" id="ID_KINETIC_MONK_COMBAT_FORCEFUL_DISCHARGE" level="13"/>
+		</rules>
+	</element>
+
+	<element name="Kinetic Blast" type="Archetype Feature" source="Kinetic Monk" id="ID_KINETIC_MONK_COMBAT_KINETIC_BLAST">
+        <description>
+            <p>At 3rd level, spend 1 Kinetic Charge to unleash a Kinetic Blast. One target within range must succeed on a Strength saving throw (DC = 8 + proficiency bonus + Strength modifier) or take 2d6 force damage + Dexterity modifier and be pushed 10 ft. Damage increases at levels 5, 11, 17.</p>
+        </description>
+    </element>
+
+    <element name="Kinetic Flurry" type="Archetype Feature" source="Kinetic Monk" id="ID_KINETIC_MONK_COMBAT_KINETIC_FLURRY">
+        <description>
+            <p>At 6th level, spend 2 Kinetic Charges to make two consecutive unarmed strikes. If either hits, trigger a 5-ft radius kinetic explosion: primary target takes 2d8 + Dex modifier, others take 1d8. Damage increases at 11th and 17th levels.</p>
+        </description>
+    </element>
+
+    <element name="Forceful Discharge" type="Archetype Feature" source="Kinetic Monk" id="ID_KINETIC_MONK_COMBAT_FORCEFUL_DISCHARGE">
+        <description>
+            <p>At 13th level, once per long rest, spend 3 Kinetic Charges to push targets in a 20-ft radius away. Each target must succeed on a Strength saving throw or take 3d10 force damage, be pushed 10 ft, and fall prone. On success, half damage and not pushed.</p>
+        </description>
+    </element>
+</elements>

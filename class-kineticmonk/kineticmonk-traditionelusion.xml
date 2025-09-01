@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Kinetic Monk Traditions</name>
+		<update version="1.0.0">
+			<file name="class-kineticmonk-traditionelusion.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Tradition of Elusion" type="Archetype" source="Kinetic Monk" id="ID_KINETIC_MONK_COMBAT">
+		<supports>Covenant</supports>
+		<description>
+			<p>This tradition focuses on channeling kinetic energy offensively, granting the Monk's versatile abilities to unleash devastating attacks in combat.</p>
+			<div element="ID_KINETIC_MONK_ELUSION_BLURRED_MOVEMENTS"/>
+			<div element="ID_KINETIC_MONK_ELUSION_KINETIC_RESIDUE"/>
+			<div element="ID_KINETIC_MONK_ELUSION_SILENT_MOVEMENT"/>
+			<div element="ID_KINETIC_MONK_ELUSION_ILLUSORY_REPLICATION"/>
+		</description>
+		<rules>
+			<grant type="Archetype Feature" id="ID_KINETIC_MONK_ELUSION_BLURRED_MOVEMENTS" level="3"/>
+			<grant type="Archetype Feature" id="ID_KINETIC_MONK_ELUSION_KINETIC_RESIDUE" level="6"/>
+			<grant type="Archetype Feature" id="ID_KINETIC_MONK_ELUSION_SILENT_MOVEMENT" level="13"/>
+			<grant type="Archetype Feature" id="ID_KINETIC_MONK_ELUSION_ILLUSORY_REPLICATION" level="13"/>
+		</rules>
+	</element>
+
+	<element name="Blurred Movements" type="Archetype Feature" source="Kinetic Monk" id="ID_KINETIC_MONK_ELUSION_BLURRED_MOVEMENTS">
+        <description>
+            <p>At 3rd level, spend 1 Kinetic Charge to evade foes. Each creature within 30 ft must make a Perception check (DC = 8 + proficiency bonus + Dex modifier). On failure, you become shrouded in kinetic energy, allowing movement as if invisible for up to 1 minute or until you attack.</p>
+        </description>
+    </element>
+
+    <element name="Kinetic Residue" type="Archetype Feature" source="Kinetic Monk" id="ID_KINETIC_MONK_ELUSION_KINETIC_RESIDUE">
+        <description>
+            <p>At 6th level, spend 1 Kinetic Charge to create an indistinguishable kinetic copy for 1 minute. The next attack that hits you has a 50% chance to target the copy instead, negating the damage and destroying the copy.</p>
+        </description>
+    </element>
+
+    <element name="Silent Movement" type="Archetype Feature" source="Kinetic Monk" id="ID_KINETIC_MONK_ELUSION_SILENT_MOVEMENT">
+        <description>
+            <p>At 13th level, your movement produces no sound, leaves no trace, and you automatically succeed on Stealth checks.</p>
+        </description>
+    </element>
+
+    <element name="Illusory Replication" type="Archetype Feature" source="Kinetic Monk" id="ID_KINETIC_MONK_ELUSION_ILLUSORY_REPLICATION">
+        <description>
+            <p>At 13th level, you may have unlimited Kinetic Residues. Each unarmed strike adds +1 damage per active residue.</p>
+        </description>
+    </element>
+</elements>
