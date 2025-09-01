@@ -5,7 +5,7 @@
 			<file name="sources.xml" url="https://raw.githubusercontent.com/Ghost-sourceK/Homebrew-Content-DnD/refs/heads/main/class-kineticmonk/source.xml" />
 		</update>
 	</info>
-	<element name="KineticMonkSource" type="Source" source="Kinetic Monk" id="ID_SOURCE_KINETIC_MONK">
+	<element name="KineticMonkSource" type="Source" source="Core" id="ID_SOURCE_KINETIC_MONK">
 		<description>
 			<p>A monk who masters kinetic energy through movement and combat.</p>
 		</description>
