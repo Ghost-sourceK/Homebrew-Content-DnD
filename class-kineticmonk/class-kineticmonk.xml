@@ -64,7 +64,7 @@
 				<tr><td>20th</td><td>+6</td><td class="left">Mind and Body</td>									<td>+30 ft</td><td>1d12</td></tr>
 			</table>
 			
-			<div element="ID_KINETIC_MONK_FEATURE_UNURMORED_DEFENCE" />
+			<div element="ID_KINETIC_MONK_FEATURE_UNARMORED_DEFENCE" />
 			<div element="ID_KINETIC_MONK_FEATURE_MARTIAL_ARTS" />
 			<div element="ID_KINETIC_MONK_FEATURE_KINETIC_CHARGES" />
 			<div element="ID_KINETIC_MONK_FEATURE_MONASTIC_TRADITIONS" />
