@@ -3,12 +3,12 @@
 	<info>
 		<name>Kinetic Monk</name>
 		<update version="1.0.0">
-			<file name="class-kineticmonk.xml" url="" />
+			<file name="class-kineticmonk.xml" url="https://raw.githubusercontent.com/Ghost-sourceK/Homebrew-Content-DnD/refs/heads/main/class-kineticmonk/class-kineticmonk.xml" />
 		</update>
 	</info>
 
 	<!-- Kinetic Monk -->
-	<element name="Kinetic Monk" type="Class" source="Kinetic Monk" id="ID_KINETIC_MONK">
+	<element name="Kinetic Monk" type="Class" source="KineticMonkSource" id="ID_CLASS_KINETIC_MONK">
 		<description>
 			<p>The Kinetic Monk is a master of energy in motion, a warrior who channels kinetic force from their own body and the world around them to strike, evade, and control the battlefield.</p>
 			<p>Every step, every blow, every motion is a calculated effort to generate potential, store it, and release it with lethal precision.</p>
