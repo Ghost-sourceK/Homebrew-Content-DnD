@@ -3,11 +3,11 @@
 	<info>
 		<name>Kinetic Monk Traditions</name>
 		<update version="1.0.0">
-			<file name="class-kineticmonk-traditionelusion.xml" url="" />
+			<file name="class-kineticmonk-traditionelusion.xml" url="https://raw.githubusercontent.com/Ghost-sourceK/Homebrew-Content-DnD/refs/heads/main/class-kineticmonk/kineticmonk-traditionelusion.xml" />
 		</update>
 	</info>
 
-	<element name="Tradition of Elusion" type="Archetype" source="Kinetic Monk" id="ID_KINETIC_MONK_COMBAT">
+	<element name="Tradition of Elusion" type="Archetype" source="KineticMonkSource" id="ID_KINETIC_MONK_ELUSION_ARCHETYPE">
 		<supports>Covenant</supports>
 		<description>
 			<p>This tradition focuses on channeling kinetic energy offensively, granting the Monk's versatile abilities to unleash devastating attacks in combat.</p>
