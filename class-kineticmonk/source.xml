@@ -2,16 +2,16 @@
 <elements>
 	<info>
 		<update version="1.0.0">
-			<file name="sources.xml" url="" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/Ghost-sourceK/Homebrew-Content-DnD/refs/heads/main/class-kineticmonk/source.xml" />
 		</update>
 	</info>
-	<element name="Kinetic Monk" type="Source" source="KineticMonk" id="ID_KINETIC_MONK">
+	<element name="KineticMonkSource" type="Source" source="Kinetic Monk" id="ID_SOURCE_KINETIC_MONK">
 		<description>
 			<p>A monk who masters kinetic energy through movement and combat.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">Kinetic Monk</set>
-            <set name="https://homebrewery.naturalcrit.com/share/cQW-dD87QC9f"></set>
+            <set name="url">https://homebrewery.naturalcrit.com/share/cQW-dD87QC9f</set>
            	<set name="image">https://imgur.com/4S74PBC.png</set>
 			<set name="author" abbreviation="Tatietho" url="https://www.reddit.com/user/ExtremeAd4400/">Tatietho</set>
            	<set name="official">false</set>
